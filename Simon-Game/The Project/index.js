@@ -13,7 +13,7 @@ function start () {
     $('h1').text("Level " + 1);
 }
 
-$(".btn").on("click", function () {
+$(".btnn").on("click", function () {
     if (!flag) {
         var name = $(this).attr("id");
         user.push(name);
